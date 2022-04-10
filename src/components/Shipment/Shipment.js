@@ -24,6 +24,8 @@ const Shipment = () => {
 
     const handleCreateUser = event => {
         event.preventDefault();
+        const shipping = { name, email, address, phone };
+        console.log(shipping);
     }
 
     return (

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
 const Login = () => {
+
     return (
         <div className='form-container'>
             <div>
@@ -14,9 +15,9 @@ const Login = () => {
                     </div>
                     <div className="input-group">
                         <label htmlFor="password">Password</label>
-                        <input type="password" name="password" id="" />
+                        <input type="password" name="password" id="" required />
                     </div>
-                    <input className='form-submit' type="submit" value="Login" />
+                    <input className='form-submit' type="submit" value="Login" required />
                 </form>
                 <p className='create-new-account'>
                     New to Amazon?

@@ -1,11 +1,14 @@
 .form-container {
     width: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    box-shadow: -10px 10px rgb(255, 153, 0, 0.3);
 }
 
 .form-title {
@@ -44,4 +47,27 @@
 .form-link {
     color: #FF9900;
     text-decoration: none;
+}
+
+.or-block {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #a1a1a1;
+
+}
+
+.or-block p {
+    margin: 10px;
+}
+
+.btn {
+    width: 415px;
+    height: 55px;
+    background-color: #fff;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
 }

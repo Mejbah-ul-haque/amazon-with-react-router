@@ -54,18 +54,24 @@
     text-decoration: none;
 }
 
-.or-block {
+.div-container {
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
-    color: #a1a1a1;
-    margin: 20px;
+}
+
+.div-container .div {
+    height: 1px;
+    width: 30%;
+    background-color: gray;
+    margin-top: 7px;
 
 }
 
-.or-block p {
-    margin: 10px;
+.div-container p {
+    color: gray;
+    font-size: 20px;
+    margin: 20px 10px;
 }
 
 .btn {

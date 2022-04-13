@@ -56,10 +56,10 @@ const Login = () => {
                     New to Amazon?
                     <Link className='form-link' to="/signup"> Create an account </Link>
                 </p>
-                <div className='or-block'>
-                    <div>----------</div>
-                    <p> or </p>
-                    <div>-----------</div>
+                <div className='div-container'>
+                    <div className='div'></div>
+                    <p>or</p>
+                    <div className='div'></div>
                 </div>
                 <button className='btn'>Continue with Google</button>
             </div>
